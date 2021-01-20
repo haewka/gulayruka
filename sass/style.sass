@@ -1,0 +1,64 @@
+
+    
+.component
+    min-height: 600px
+
+    &-spectr
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 10px
+    &-name
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        min-width: 100px
+        min-height: 30px
+        background-color: rgb(210, 210, 210)
+        padding: 0 5px 0 5px
+        div
+            font-size: 20px
+            text-align: right
+    &-blocks
+        display: flex
+        justify-content: space-around
+        margin: 0 10px 0 10px
+        div
+            width: 20px
+            height: 20px
+            background-color: rgb(210, 210, 210)
+            margin-right: 5px
+            &:nth-last-child(1)
+                margin-right: 0px
+        &_red
+            div
+                &:nth-last-child(-n+4)
+                    background-color: #a81616
+        &_yellow
+            div
+                &:nth-last-child(-n+11)
+                    background-color: #f0e006
+        &_lightgreen
+            div
+                &:nth-last-child(-n+14)
+                    background-color: #33ca05
+        &_green
+            div
+                &:nth-last-child(-n+20)
+                    background-color: #1b8600
+
+
+    &-stats
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        min-width: 100px
+        min-height: 30px
+        background-color: rgb(210, 210, 210)
+        padding: 0 5px 0 5px
+        div
+            font-size: 20px
+            text-align: right
+
+@import '_adaptation'
+        

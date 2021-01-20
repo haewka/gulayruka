@@ -1,0 +1,93 @@
+@media (max-width: 991px)
+    .component
+        &-blocks
+            &_red
+                div
+                    &:nth-last-child(n+9)
+                        display: none
+                    &:nth-child(-n+9)
+                        display: block
+            &_yellow
+                div
+                    &:nth-last-child(n+9)
+                        display: none
+                    &:nth-child(-n+9)
+                        display: block
+            &_lightgreen
+                div
+                    &:nth-last-child(n+9)
+                        display: none
+                    &:nth-child(-n+9)
+                        display: block
+            &_green
+                div
+                    &:nth-last-child(n+9)
+                        display: none
+                    &:nth-child(-n+9)
+                        display: block
+
+@media (max-width: 767px)
+    .component
+        &-blocks
+            &_red
+                div
+                    &:nth-last-child(n+6)
+                        display: none
+                    &:nth-child(-n+6)
+                        display: block
+            &_yellow
+                div
+                    &:nth-last-child(n+6)
+                        display: none
+                    &:nth-child(-n+6)
+                        display: block
+            &_lightgreen
+                div
+                    &:nth-last-child(n+9)
+                        display: none
+                    &:nth-child(-n+3)
+                        display: block
+            &_green
+                div
+                    &:nth-last-child(n+6)
+                        display: none
+                    &:nth-child(-n+6)
+                        display: block
+@media (max-width: 575px)
+    .component
+        &-name
+            min-width: 60px
+            div
+                width: 100%
+                font-size: 13px
+        &-stats
+                min-width: 60px
+                div
+                    width: 100%
+                    font-size: 13px
+        &-blocks
+            &_red
+                div
+                    &:nth-last-child(n+3)
+                        display: none
+                    &:nth-child(-n+4)
+                        display: block
+            &_yellow
+                div
+                    &:nth-last-child(n+4)
+                        display: none
+                    &:nth-child(-n+3)
+                        display: block
+            &_lightgreen
+                div
+                    &:nth-last-child(n+5)
+                        display: none
+                    &:nth-child(-n+2)
+                        display: block
+            &_green
+                div
+                    &:nth-last-child(n+3)
+                        display: none
+                    &:nth-child(-n+4)
+                        display: block
+       
